@@ -16,4 +16,5 @@ Three main ways API calls are used in AWS are through the AWS Management Console
 
 ###Shared responsibility model
  AWS is responsible for security of the cloud
- Customer is responsible for security in the cloud
+ Customer is responsible for security in the cloud (Tasks like patching the operating systems of your VMs, encrypting data in transit and at rest, configuring firewalls, and controlling who has access to these resources and how much access they have).
+ 
