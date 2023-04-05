@@ -13,3 +13,5 @@ Preconfigured templates for your instances are known as Amazon Machine Images (A
 
 You can logically manage your infrastructure through the AWS Application Program Interface, or API. You can create, delete, or change any AWS resource using API calls.
 Three main ways API calls are used in AWS are through the AWS Management Console, the AWS Command Line Interface, and the AWS Software Development Kits, or SDKs. 
+
+###Shared responsibility model
