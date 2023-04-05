@@ -15,3 +15,5 @@ You can logically manage your infrastructure through the AWS Application Program
 Three main ways API calls are used in AWS are through the AWS Management Console, the AWS Command Line Interface, and the AWS Software Development Kits, or SDKs. 
 
 ###Shared responsibility model
+ AWS is responsible for security of the cloud
+ Customer is responsible for security in the cloud
