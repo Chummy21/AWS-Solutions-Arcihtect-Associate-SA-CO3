@@ -1,5 +1,6 @@
 Python Programming (05/04/2023)
 (Day 1)  print("coding is wow")  
+
 (Day 2) three skills learned (print, input, variables)
 The input command-----------------------input("What's your name?:")
 yourName = input("What's your name?:")
@@ -14,4 +15,8 @@ print("And you are definitely getting your groove")
 print("Sugarcane by Camidoh")
 print("Living in the amazing")
 print("California")
+
 (Day3)Learn about concatenating (Concatenation is the ability to glue or join together bits or string of text and variables together to make a good output.
+myName = input("What's your name? ")
+myLunch = input("What are you having for lunch? ")
+print(myName, "is going to be chowing down on", myLunch, "very soon!")
