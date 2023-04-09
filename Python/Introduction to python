@@ -32,3 +32,18 @@ myCooking = input("Name a method of cooking: ")
 word = input("What word describes burned food?:")
 diy = input("Name a DIY item:")
 print(myCooking, foodName, "with", word, plantName, "on a bed of", diy)
+
+(Day4)Learned how to use the variable, input and also how to write a story and project and color it using concatenation.
+
+print("Welcome to your Adventure Simulator")
+print("I am going to ask you a bunch of questions and then create an epic story with you as the star") 
+print()
+yourName = input("What is your name?: ")
+worstenemysName = input("What is your worst enemy's name?: ")
+yourSuperpower = input("What is superpower?: ")
+yourFavouritefood = input("What is your favourite food?: ")
+print()
+print("The story of my tech journey began last year when I lost a job because of lack of experience in cloud computing.")
+print()
+print("Last year, I started my journey in tech to learn all about the cloud and my nickname is", yourName)
+print("\033[1;32m Cloud computing is the delivery of computing services over the internet and my worst enemy is", worstenemysName, "I have a superpower which is\033[34m", yourSuperpower, "\033[31m and I love eating", yourFavouritefood)
