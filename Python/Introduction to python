@@ -57,3 +57,23 @@ if myName == "David":
    print("You're just the baldest dude I've ever seen")
 else:
    print("Who on earth are you?!")
+   
+   print("Chioma likes going to the movies")
+print()
+print("Lets answer these questions")
+print()
+
+hangingAround = input("Does Chioma like 'hanging around'?: ")
+if hangingAround == "No":
+    print("Chioma is not a spider-man")
+
+gravellyVoice = input("Does Chioma have a 'gravelly' voice?: ")
+if gravellyVoice == "No":
+    print("Aww, then Chioma is not a chorester")
+
+feelMarvelous = input("Does Chioma often feel 'Marvelous'?: ")
+if feelMarvelous == "No":
+    print("Wow")
+else:
+    print("Aha! You're Captain Chioma!!! Hello!")
+
