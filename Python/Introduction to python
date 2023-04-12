@@ -33,6 +33,8 @@ word = input("What word describes burned food?:")
 diy = input("Name a DIY item:")
 print(myCooking, foodName, "with", word, plantName, "on a bed of", diy)
 
+
+
 print("SECURE LOGIN")
 username = input("Username > ")
 password = input("Password > ")
@@ -97,3 +99,20 @@ elif username == "suzanne":
    print("Hey there Suzanne!")
 else:  
    print("Go away!")
+   
+I wrote a program where someone logsin with their username and password and gets a lovely individual greeting using (if, elif and else commands)
+
+print("A program where someone logs-in with their username and password and gets a lovely individaul greeting.")
+print()
+username = input("What is your name?")
+password = input("What is your password?")
+
+if username == "Chioma" and password == "beauty" :
+  print("Chioma is a beautiful Lady!")
+elif username  == "Chisom" and password == "charming" :
+  print("Chisom is a pretty Woman!")
+elif username == "Chizzy" and password == "adorable" :
+  print("Chizzy is an adorable programmer!")
+else:
+  print("You are not authorized. See the admin!")
+  
