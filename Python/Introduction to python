@@ -33,8 +33,6 @@ word = input("What word describes burned food?:")
 diy = input("Name a DIY item:")
 print(myCooking, foodName, "with", word, plantName, "on a bed of", diy)
 
-
-
 print("SECURE LOGIN")
 username = input("Username > ")
 password = input("Password > ")
@@ -116,3 +114,17 @@ elif username == "Chizzy" and password == "adorable" :
 else:
   print("You are not authorized. See the admin!")
   
+(Day 7) Today, I learned about nesting. Nesting is where we put an if statement within an if statement using the power of indenting. The second if statement within the first if statement must be indented and its print statement needs to be indented one more time
+
+
+
+
+
+
+
+
+
+
+
+
+
