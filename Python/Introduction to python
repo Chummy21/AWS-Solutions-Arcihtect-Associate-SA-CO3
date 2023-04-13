@@ -116,7 +116,18 @@ else:
   
 (Day 7) Today, I learned about nesting. Nesting is where we put an if statement within an if statement using the power of indenting. The second if statement within the first if statement must be indented and its print statement needs to be indented one more time
 
-
+tvShow = input("What is your favourite tv show?")
+if tvShow == "Moneyline with Nancy" :
+  print("Ugh, why?")
+  faveCharacter = input("Who is your favourite character?")
+  if faveCharacter == "Nancy" :
+    print("Right answer")
+  else:
+    print("Nancy is the greatest.")
+elif tvShow == "Super story" :
+  print("Aww, happy times")
+else:
+  print("Yeah, that's cool and all")
 
 
 
