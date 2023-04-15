@@ -145,7 +145,44 @@ elif order == "pizza" :
 else:
   print("Yeah, that's cool and all")
 
+(Day8) I built a "Customized Affirmation Generator" using all the skills I have learned (Input and Output, Concatenation, IF statements, and Nested IF  statements)! 
 
+print("My daily custom affirmation generator.")
+print()
+
+name = input("What is your name?")
+if name == "Chioma" or name == "chioma":
+  print("Welcome to a new week")
+week = input("What is the day of the week?")
+if week == "Monday" or week == "monday":
+  print("My monday will be a success!")
+if week == "Tuesday" or week == "tuesday":
+  print("Tuesday all the way!")
+if week == "Wednesday" or week == "wednesday":
+  print("Wednesday, way to go!!!")
+if week == "Thursday" or week == "thursday":
+  print("I am blessed this thursday")
+if week == "Friday" or week == "friday":
+  print("Thank God its friday")
+
+elif name == "Chioma" or name == "chioma":
+  week = input("What is the day of the week?")
+  if week == "monday" or week == "Monday":
+    print(name,"It's a beautiful day!")
+    if week == "tuesday" or week == "Tuesday":
+     print("Awesome tuesday",name)
+    if week == "wednesday" or week == "Wednesday":
+     print("Women crush wednesday")
+    if week == "thursday" or week == "Thursday":
+     print("I am succesful!!", name)
+    if week == "friday" or week == "Friday":
+     print(name,"Cheers to the freaking weekend🥰🥰")
+else:
+  print(name,"Your name is so lovely. Have a blessed day!")
+    
+      
+      
+      
 
 
 
