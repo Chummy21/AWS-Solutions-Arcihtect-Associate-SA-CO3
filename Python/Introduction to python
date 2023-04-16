@@ -180,7 +180,21 @@ elif name == "Chioma" or name == "chioma":
 else:
   print(name,"Your name is so lovely. Have a blessed day!")
     
-      
+(Day9)..Today, I learned about casting. The 'If statement' does not support only ==, it also supports mathematical signs
+Casting is where we explicitly tell the computer that what we are typing is a number and not a letter.
+
+myScore = int(input("Your score: "))
+if myScore > 10000:
+  print("Winner!")
+else:
+  print("Try again later!")
+  
+  Learned anout integers and float
+ goodGirl = int(input("what is the addition of 3 and 5? : "))
+if goodGirl == 8 :
+  print("correct")
+else:
+  print("wrong")     
       
       
 
