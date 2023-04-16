@@ -196,7 +196,11 @@ if goodGirl == 8 :
 else:
   print("wrong")     
       
-      
+myPi = float(input("what is pi to 3dp? : "))
+if myPi == 3.142 :
+  print("correct")
+else:
+  print("wrong")      
 
 
 
