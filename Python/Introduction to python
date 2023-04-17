@@ -202,7 +202,19 @@ if myPi == 3.142 :
 else:
   print("wrong")      
 
-
+print("Generation Identifier")
+print()
+birthYear = int(input("Which year were you born?"))
+if birthYear <= 1925:
+  print("Hello, Baby boomers, keep glowing!")
+elif birthYear >= 1947 and birthYear <= 1964:
+  print("Gen X, how far?")
+elif birthYear >= 1982 and birthYear <= 19995:
+  print("Welcome Millenials!")
+elif birthYear >= 2015:
+  print("Gen z")
+else:
+  print("Not available!")
 
 
 
