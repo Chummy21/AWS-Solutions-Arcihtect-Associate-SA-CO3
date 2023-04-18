@@ -247,5 +247,24 @@ print()
 divisor = 15 // 2
 print(divisor)
 
+#multiplication
+multiplication = 3.4 * 6.8
+print(multiplication)
+print()
 
+#division
+division = 2467 /4673
+print(division)
+print()
+
+#raise 10 to the power of 2
+squared = 10 ** 2
+print(squared)
+print()
+
+#print the remainder when 343 is divided by 4
+divisor = 343 // 100
+print("343 // 100")
+print()
+print(divisor)
 
