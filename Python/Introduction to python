@@ -87,7 +87,7 @@ if feelMarvelous == "No":
 else:
     print("Aha! You're Captain Chioma!!! Hello!")
     
-(Day 6) Today, I learned, the elif command (which stands for 'elseif'). This allows you to ask 2, 3, 4 or 142 questions using the same input! This command must be in a certain place. You can have as many elif statements as you want, but they must go in between if and else and have the same indentation. The print statements in your elif command need to line up with the indent of the other print statements.
+###(Day 6) Today, I learned, the elif command (which stands for 'elseif'). This allows you to ask 2, 3, 4 or 142 questions using the same input! This command must be in a certain place. You can have as many elif statements as you want, but they must go in between if and else and have the same indentation. The print statements in your elif command need to line up with the indent of the other print statements.
 
 print("SECURE LOGIN")
 username = input("Username > ")
@@ -114,7 +114,7 @@ elif username == "Chizzy" and password == "adorable" :
 else:
   print("You are not authorized. See the admin!")
   
-(Day 7) Today, I learned about nesting. Nesting is where we put an if statement within an if statement using the power of indenting. The second if statement within the first if statement must be indented and its print statement needs to be indented one more time
+###(Day 7) Today, I learned about nesting. Nesting is where we put an if statement within an if statement using the power of indenting. The second if statement within the first if statement must be indented and its print statement needs to be indented one more time
 
 tvShow = input("What is your favourite tv show?")
 if tvShow == "Moneyline with Nancy" :
@@ -145,7 +145,7 @@ elif order == "pizza" :
 else:
   print("Yeah, that's cool and all")
 
-(Day8) I built a "Customized Affirmation Generator" using all the skills I have learned (Input and Output, Concatenation, IF statements, and Nested IF  statements)! 
+###(Day8) I built a "Customized Affirmation Generator" using all the skills I have learned (Input and Output, Concatenation, IF statements, and Nested IF  statements)! 
 
 print("My daily custom affirmation generator.")
 print()
@@ -180,7 +180,7 @@ elif name == "Chioma" or name == "chioma":
 else:
   print(name,"Your name is so lovely. Have a blessed day!")
     
-(Day9)..Today, I learned about casting. The 'If statement' does not support only ==, it also supports mathematical signs
+###(Day9)..Today, I learned about casting. The 'If statement' does not support only ==, it also supports mathematical signs
 Casting is where we explicitly tell the computer that what we are typing is a number and not a letter.
 
 myScore = int(input("Your score: "))
@@ -189,7 +189,7 @@ if myScore > 10000:
 else:
   print("Try again later!")
   
-  Learned anout integers and float
+Also learned about integers and float
  goodGirl = int(input("what is the addition of 3 and 5? : "))
 if goodGirl == 8 :
   print("correct")
@@ -216,7 +216,36 @@ elif birthYear >= 2015:
 else:
   print("Not available!")
 
+####(Day10) Today, I tried different mathematical symbols
+adding = 4 + 3
+print(adding)
+print()
 
+subtraction = 8 - 9
+print(subtraction)
+print()
+
+multiplication = 4 * 32
+print(multiplication)
+print()
+
+division = 50 / 5
+print(division)
+print()
+
+# a number raised to a power of something is **
+squared = 5**2
+print(squared)
+print()
+
+# the remainder of a division
+modulo = 15 % 4
+print(modulo)
+print()
+
+# whole number division
+divisor = 15 // 2
+print(divisor)
 
 
 
