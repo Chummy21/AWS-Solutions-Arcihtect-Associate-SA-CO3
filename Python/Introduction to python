@@ -268,3 +268,12 @@ print("343 // 100")
 print()
 print(divisor)
 
+I built a tip calculator
+print("Tip calculator")
+print()
+totalBill = float(input("What was the bill?:"))
+numberOfpeople = int(input("How many people?:"))
+tippercentage = int(input("tippercentage to leave:"))
+billwithtip = (totalBill+(totalBill * tippercentage/100))
+totalBill = billwithtip/numberOfpeople
+print("You all owe", totalBill)
