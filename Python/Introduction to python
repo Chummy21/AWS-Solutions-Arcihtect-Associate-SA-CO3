@@ -277,3 +277,33 @@ tippercentage = int(input("tippercentage to leave:"))
 billwithtip = (totalBill+(totalBill * tippercentage/100))
 totalBill = billwithtip/numberOfpeople
 print("You all owe", totalBill)
+
+(Day11)..wrote a program to calculate the seconds in a year
+print("Find out - how many seconds are in a year?")
+print()
+seconds = int(input("How many seconds are in a minute? "))
+print()
+minutes = int(input("How many minutes are in an hour? "))
+print()
+hours = int(input("How many hours in a day? "))
+print()
+days = int(input("How many days in a month? ")) 
+print()
+month = (input("How many month in a year? "))
+print()
+leapYear = input("Is it a leap year? ")
+print()
+secondsinaYear = (seconds*minutes*hours*365)
+leapyearinsecs = (seconds*minutes*hours*366)
+if secondsinaYear == "yes" or secondsinaYear == "Yes":
+  print("There are",secondsinaYear)
+if leapYear == "no" or leapYear == "No":
+  print("There are",leapyearinsecs,"in a year.")
+else:
+  print("There are", secondsinaYear,"in a year.")
+
+
+
+
+
+
