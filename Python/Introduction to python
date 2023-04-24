@@ -339,6 +339,36 @@ elif ans2 == "12":
 else:
   print("We've gone well past that!")
 
+(Day13)I built an 'Exam Grade Calculator' today
+print("Exam Grade Generator")
+print()
+examName = input("What is the name of the exam?")
+print()   
+maximumScore = int(input("What is the maximum score?"))
+print()
+yourScore = int(input("\033[33m Your score is:"))
+print()
+
+totalScore =  float(yourScore/maximumScore)
+finalNumber = round(totalScore, 2)
+finalPercentage = round(totalScore*100, 2)
+print("You got", finalPercentage,"%")
+
+if finalNumber >= .90:
+  print("\033[31m Congratulations, your grade is an A+")
+elif finalNumber >= .80 and finalNumber <= .89:
+  print("Your grade is an A-.")
+elif finalNumber >= .70 and finalNumber <= .79:
+  print("Welldone,Your grade is a B.")
+elif finalNumber >= .60 and finalNumber <= .69: 
+   print("Your grade is a C and its cool.")
+elif finalNumber >= .50 and finalNumber <= .59:
+  print("Your grade is a D. You need to study harder.")
+elif finalNumber <= .49:
+  print("Your grade is an F")
+else:
+  ("Go and rewrite your exam!")
+
 
 
 
