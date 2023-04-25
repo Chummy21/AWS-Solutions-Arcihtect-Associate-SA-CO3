@@ -369,6 +369,45 @@ elif finalNumber <= .49:
 else:
   ("Go and rewrite your exam!")
 
+(Day14) I built my first multiplayer game using the input, if, else, and elif statements 🪨 📄✂️!!!
+print("EPIC 🪨  📄 ✂️ BATTLE")
+print()
+player1Name = input("player1, what is your name?")
+print()
+player2Name = input("player2, what is your name?")
+from getpass import getpass as input
+print("Select your move, R, P or S:")
+print()
+print(player1Name, "your time is up")
+player1Name = input("Pick your move >")
+print()
+print(player2Name, "oya pick your move!")
+player2Name = input("Pick your move >")
+print()
+if player1Name == "r" or player1Name == "R":
+  if player2Name == "r" or player2Name == "R":
+    print("You both picked Rock, so its a draw!")
+  elif player2Name == "p" or player2Name == "P":
+    print(player2Name, "win")
+  elif player2Name == "s" or player2Name == "S":
+    print(playerName1, "Warning")
+  else:
+    print("That's invalid!")
+if player1Name == "p" or player1Name == "P":  
+  if player2Name == "r" or player2Name == "R":
+    print(player1Name, "win")
+  elif player2Name == "p" or player2Name == "P":
+    print("its a draw")
+  elif player2Name == "s" or player2Name == "S":
+    print(player2Name, "win")
+else:
+  print("That's invalid!")
+if player1Name == "s" or player1Name == "S":
+  if player2Name == "r" or player2Name == "R":
+    print(player2Name, "win")
+    
+  
+  
 
 
 
