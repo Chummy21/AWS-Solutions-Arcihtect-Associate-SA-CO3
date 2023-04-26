@@ -406,8 +406,17 @@ if player1Name == "s" or player1Name == "S":
   if player2Name == "r" or player2Name == "R":
     print(player2Name, "win")
     
-  
-  
+ (Day15) Today I learned about the while loop. A while loop allows your code to repeat itself based on a condition you set.
+It is similar to an if statement in that you ask a question, and as long as the answer is true, the computer will repeatedly run the code.
+while condition :
+For instancee, check the example below. The variable is called counter and starts at zero. The while loop has the condition saying, "while the counter is less than ten do this..."
+In this case, print the variable and then add +=1 to that variable. As long as variable is less than 10, the loop will repeat the code.
+
+counter = 0
+while counter < 10:
+  print(counter)
+  counter +=1
+ 
 
 
 
