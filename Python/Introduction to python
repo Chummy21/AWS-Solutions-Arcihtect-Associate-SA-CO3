@@ -417,7 +417,34 @@ while counter < 10:
   print(counter)
   counter +=1
  
-
-
+Built an Animal Sound Generator
+print("Animal Sound Game")
+print()
+exit = ""
+while exit != "no":
+  animalType = input("What animal sound do you want to hear?: ")
+  print()
+  if animalType == "cow" or animalType =="Cow":
+    print("moooooooooooooo")
+    print()
+  elif  animalType == "sheep" or animalType == "Sheep":
+    print("baaaaaaaaaaaa")
+    print()
+  elif animalType == "lion" or animalType == "Lion":
+    print("roaaaaaaaaaaarrrrrr")
+    print() 
+  elif animalType == "frog" or animalType == "Frog":
+    print()
+    print("croaaaaaaaaaaaaaaak")
+    print()
+  elif animalType == "dog" or animalType == "Dog":
+    print("woooooof")
+  elif animalType == "bee" or animalType == "Bee":
+    print("buzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz")
+    print()
+  else:
+    print("That animal sound is strange. Haven't heard it before.")
+    print()
+  exit = input("Do you want to play again? ") 
 
 
