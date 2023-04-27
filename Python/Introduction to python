@@ -447,4 +447,26 @@ while exit != "no":
     print()
   exit = input("Do you want to play again? ") 
 
+(Day15) Learned anout the while True: today. The True creates an infinite loop. This type of loop has two conditions (True or False).
+A Boolean Loop has two values: True or False
+
+while True:
+  print("This program is running")
+  print("I love this")
+
+while True:
+  print("This program is running")
+  print("I love this")
+  keepCoding = input("keepCoding:")
+  if keepCoding == "no":
+    break
+print("This is fun")
+
+
+
+
+
+
+
+
 
