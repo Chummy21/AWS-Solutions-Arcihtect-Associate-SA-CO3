@@ -462,6 +462,17 @@ while True:
     break
 print("This is fun")
 
+This is another example
+counter = 0
+while True:
+  answer = int(input("Enter a number: "))
+  print("Adding it up!")
+  counter += answer
+  print("Current total is", counter)
+  addAnother = input("addAnother?: ")
+  if addAnother == "no":
+    break
+print("Bye!")
 
 
 
