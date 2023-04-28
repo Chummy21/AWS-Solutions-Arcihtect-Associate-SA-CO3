@@ -492,8 +492,14 @@ else:
  print("Cool lyric!")
  print("You are a genius for getting the correct lyric")
     
-(Day17)
+(Day17) Still on the while True loop and break
 
+while True:
+  print("I am in the corridor, do I go left or right?")
+  direction = input(">:")
+  if direction == "left":
+    print("You have fallen down")
+    break
 
 
 
