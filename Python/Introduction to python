@@ -474,8 +474,25 @@ while True:
     break
 print("Bye!")
 
+Day16 challenge
+print("Thanks for being part of my 'NAME THE LYRICS' game!")
+print()
+print("Find out the blank lyrics ASAP.")
+print()
 
-
+counter = 1
+while True:
+  lyricName = input("One love _____ us together:")
+  if lyricName == "keep":
+    print("You got it!")
+    break
+  if lyricName == "leave":
+    print("No! Try one more time!")  
+else:
+ print("Cool lyric!")
+ print("You are a genius for getting the correct lyric")
+    
+(Day17)
 
 
 
