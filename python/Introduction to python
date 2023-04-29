@@ -502,6 +502,19 @@ while True:
     print("You have fallen down")
     break
 
-
+###Another example...............
+print("Lets play Ludo")
+while True:
+  print("You are so beautiful")
+  direction = input(">:")
+  if direction == "Good":
+    print("Thank you!")
+    break
+  elif direction == "Bad":
+    continue
+else:
+    print("We are won")
+    exit()
+    print("awesome!!!!!!!")
 
 
