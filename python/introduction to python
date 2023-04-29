@@ -2,7 +2,7 @@
 
 ##(Day 1)  print("coding is wow") 
 
-(Day 2) three skills learned (print, input, variables)
+##(Day 2) three skills learned (print, input, variables)
 The input command-----------------------input("What's your name?:")
 yourName = input("What's your name?:")
 yourFavoritefood = input("What's your favourite food?:")
